@@ -67,7 +67,7 @@ jobs:
       - name: Update to step 3
         uses: skills/action-update-step@v2
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.AVI_TOKEN  }}
           from_step: 2
           to_step: 3
           branch_name: cd
