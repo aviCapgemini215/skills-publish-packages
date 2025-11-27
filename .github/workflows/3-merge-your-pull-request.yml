@@ -58,7 +58,7 @@ jobs:
       - name: Update to step 45X
         uses: skills/action-update-step@v2
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.AVI_TOKEN  }}
           from_step: 3
           to_step: 45X
           branch_name: cd
