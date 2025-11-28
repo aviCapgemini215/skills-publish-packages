@@ -79,7 +79,7 @@ jobs:
           echo "Restore main"
           git checkout main
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.AVI_TOKEN }}
 
       # In README.md, switch step 0 for step 1.
       - name: Update to step 1
